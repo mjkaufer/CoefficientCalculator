@@ -1,5 +1,3 @@
-from .util import toIdentityDict
-
 class Constant:
     def __init__(self, value=1):
         self.value = value
@@ -154,3 +152,6 @@ class Expression:
             return 0
         else:
             return self.multiTerms[multiTerm].constant
+
+def toIdentityDict(arr):
+    return {el: el for el in arr}
