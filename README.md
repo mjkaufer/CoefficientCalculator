@@ -15,5 +15,7 @@ There are three types of classes; `Term`, `MultiTerm`, and `Expression`.
 
 You can compute the product of expressions and then find their coefficients via `Expression.getCoefficient(MultiTerm)`. This is very useful in combinatorics problems
 
+You can find some example usage [here](https://gist.github.com/mjkaufer/75665a52499f09fe8aae900124caa8ad)
+
 ## Testing
 Just run `python -m unittest test/*` in the main directory
