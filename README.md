@@ -1,5 +1,5 @@
 # CoefficientCalculator
-This is a tool to compute the coefficients of the products of multinomial expressions!
+This is a tool to compute the coefficients of the products of multinomial expressions! The inspiration behind this is [here](http://blog.kaufer.org/combinatorics/2018/12/18/the-thanos-problem.html)
 
 ## Usage
 This code runs on python3 – maybe it runs on python2 but I haven't tested
@@ -19,3 +19,8 @@ You can find some example usage [here](https://gist.github.com/mjkaufer/75665a52
 
 ## Testing
 Just run `python -m unittest test/*` in the main directory
+
+## TODO
+* Optimize
+    * If you only want to find the coefficient of a certain multiterm, you don't need to bother tracking multiterms with higher exponents
+* Make easier to use
