@@ -23,6 +23,6 @@ Just run `python -m unittest test/*` in the main directory
 ## TODO
 * Optimize
     * If you only want to find the coefficient of a certain multiterm, you don't need to bother tracking multiterms with higher exponents
-    * If you find a set of like terms in an expression, you can use the binomial theorem on them rather than multiply them one by one
+    * If you find a set of similar expressions being multiplied together, you can use the [multinomial theorem](https://en.wikipedia.org/wiki/Multinomial_theorem#Multinomial_coefficients)  on them rather than find the coefficients by tediously multiplying them out
         * This would need some abstraction around multiplying expressions together
 * Make easier to use
